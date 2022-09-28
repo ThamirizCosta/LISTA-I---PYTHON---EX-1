@@ -1,0 +1,15 @@
+valor_hora = float(input("Digite o quanto você ganha por hora: "))
+horas_trabalhadas = float(input("Digite as horas trabalhadas: "))
+
+salario_bruto = round(horas_trabalhadas*valor_hora, 2)
+
+ir = round(salario_bruto*11/100,2)
+inss = round(salario_bruto*8/100,2)
+sindicato = round(salario_bruto*5/100,2)
+salario_liquido = round(salario_bruto - ir - inss - sindicato, 2)
+
+print(" + Salario Bruto: R$", salario_bruto)
+print(" - IR(11%): R$", ir)
+print(" - INSS (8%): R$", inss)
+print (" - Sindicato (5%): R$", sindicato)
+print (" Salario Liqudio", salario_liquido)
