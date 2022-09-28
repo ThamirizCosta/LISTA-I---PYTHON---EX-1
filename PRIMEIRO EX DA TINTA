@@ -1,0 +1,16 @@
+metro_tinta = 3
+quantidade_tinta = 18
+preco_tinta = 80.0
+
+tamanho_area = float (input("Digite o tamanho da area a ser pintada (m³)"))
+
+litros = tamanho_area/metro_tinta
+latas_inteiras = int(litros/quantidade_tinta)
+if (litros%quantidade_tinta !=0):
+  latas_inteiras +=1
+
+valor_total=latas_inteiras*preco_tinta
+
+print("Quantidade de litros de tinta necessários: ", litros)
+print ("Quantidade de latas necessárias: ", quantidade_tinta )
+print("Valor total: R$ ", valor_total)
