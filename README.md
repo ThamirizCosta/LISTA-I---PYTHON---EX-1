@@ -1,2 +1,2 @@
-# LISTA-I---PYTHON---EX-1
+# LISTA-I & II---PYTHON---
 Calculo de Peso ideal: 
