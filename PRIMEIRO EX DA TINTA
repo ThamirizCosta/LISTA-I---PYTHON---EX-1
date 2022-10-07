@@ -1,16 +1,22 @@
 metro_tinta = 3
 quantidade_tinta = 18
-preco_tinta = 80.0
+preco_tinta = 80.06
 
-tamanho_area = float (input("Digite o tamanho da area a ser pintada (m³)"))
+////// Até aqui foi declarado as informações das questões. 
+
+tamanho_area = float (input("Digite o tamanho da area a ser pintada (m³)")) ///// Aqui é a leitura, mas convertida em metros cubicos. 
+
 
 litros = tamanho_area/metro_tinta
-latas_inteiras = int(litros/quantidade_tinta)
+latas_inteiras = int(litros/quantidade_tinta) ///// O uso da variável int como forma mais prática e útil para desenvolver.
 if (litros%quantidade_tinta !=0):
-  latas_inteiras +=1
+  latas_inteiras +=1    /////////// A utilização do if como método mais prático para resolver a questão. 
 
-valor_total=latas_inteiras*preco_tinta
+valor_total=latas_inteiras*preco_tinta //// Formula para calcular o valor das latas, multiplicando as latas inteiras pelo preço das mesmas. 
 
 print("Quantidade de litros de tinta necessários: ", litros)
 print ("Quantidade de latas necessárias: ", quantidade_tinta )
 print("Valor total: R$ ", valor_total)
+
+
+//// Impressão das informações para o leitor, e ao seu lado as variáveis para que o programa associe a impressão com as mesmas. 
