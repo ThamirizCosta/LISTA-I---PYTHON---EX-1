@@ -6,3 +6,5 @@ if resultado == 0:
 else:
   print("O número é IMPAR! ")
   
+
+//////////// Utilizei o método if e else como o mais objetivo e útil para a questão proposta. 
