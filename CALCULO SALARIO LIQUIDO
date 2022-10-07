@@ -13,3 +13,9 @@ print(" - IR(11%): R$", ir)
 print(" - INSS (8%): R$", inss)
 print (" - Sindicato (5%): R$", sindicato)
 print (" Salario Liqudio", salario_liquido)
+
+
+
+//////// Calculos matemáticos envolvem a biblioteca math, e neste caso, 
+foi necessário multiplicar as variáveis (seguindo o parametro float e int) cp, as respectivas porcentagens e por fim houve a diminuição do salário bruto com os resultados
+dos calculos das porcentagens.
