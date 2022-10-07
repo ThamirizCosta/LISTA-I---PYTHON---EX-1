@@ -11,3 +11,6 @@ n9 = float (input("Informe o nono número: "))
 n10 = float (input("Informe o décimo número: "))
 soma_quadrados = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)**2
 print(f'A soma dos quadrados é: ',soma_quadrados)
+
+
+///// foi feito uma soma de todos os números float informados pelo leitor, onde será feito uma exponenciação.
