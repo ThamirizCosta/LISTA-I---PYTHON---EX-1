@@ -5,3 +5,8 @@ if numero //1 == numero:
 
 else: 
   print("O número é decimal! ")
+
+
+
+//////// if e else nos possibilita desenvolver um programa prático, onde a resposta final do programa vai se dar pelo que vamos preencher, 
+seguindo a regra do "se" (if) é verdadeiro, else é falso. Ou vice-versa. 
