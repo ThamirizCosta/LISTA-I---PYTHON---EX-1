@@ -9,3 +9,11 @@ else:
   peso_ideal = (62.1*altura) - 44.7
 
 print ("O peso ideal: " + str(peso_ideal))
+
+
+///// 
+
+Uso do if e else, pois segue o padrão proposto do trabalho.
+Seguirá o padrão, respeitando as informações que serão inseridas inicialmente para que posteriormente possa ser calculado com base no if e else. 
+Ou seja, se você for homem o programa automaticamente irá calcular o peso ideal de 72.7 multiplicado pela altura - 58. 
+E se você for mulher, será feito o calculo com base no else.
